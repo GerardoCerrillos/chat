@@ -1,0 +1,57 @@
+====================ERROR 26/9/2023, 20:58:12=========================
+{"status":400,"error":"Incorrect password","message":"The password does not match with the user"}
+
+====================ERROR 26/9/2023, 20:58:18=========================
+{"status":400,"error":"User does not exist mid","message":"You need register before login"}
+
+====================ERROR 26/9/2023, 20:58:26=========================
+{"expose":true,"statusCode":400,"status":400,"body":"{\n    \"email\": \"ian.rosas6@academlo.com\",\n}","type":"entity.parse.failed"}
+
+====================ERROR 27/9/2023, 19:32:33=========================
+{"status":400,"error":"Incorrect password","message":"The password does not match with the user"}
+
+{}
+
+====================ERROR 27/9/2023, 20:48:38=========================
+====================ERROR 27/9/2023, 20:50:50=========================
+{"name":"SequelizeDatabaseError","parent":{"length":199,"name":"error","severity":"ERROR","code":"42703","hint":"Probablemente quiera hacer referencia a la columna «Participant.conversationId».","position":"38","file":"parse_relation.c","line":"3656","routine":"errorMissingColumn","sql":"SELECT \"senderId\", \"conversationId\", \"ConversationId\", \"UserId\" FROM \"Participants\" AS \"Participant\" WHERE \"Participant\".\"ConversationId\" = 3 AND \"Participant\".\"UserId\" IN (20);"},"original":{"length":199,"name":"error","severity":"ERROR","code":"42703","hint":"Probablemente quiera hacer referencia a la columna «Participant.conversationId».","position":"38","file":"parse_relation.c","line":"3656","routine":"errorMissingColumn","sql":"SELECT \"senderId\", \"conversationId\", \"ConversationId\", \"UserId\" FROM \"Participants\" AS \"Participant\" WHERE \"Participant\".\"ConversationId\" = 3 AND \"Participant\".\"UserId\" IN (20);"},"sql":"SELECT \"senderId\", \"conversationId\", \"ConversationId\", \"UserId\" FROM \"Participants\" AS \"Participant\" WHERE \"Participant\".\"ConversationId\" = 3 AND \"Participant\".\"UserId\" IN (20);","parameters":{}}
+
+====================ERROR 29/9/2023, 17:25:42=========================
+{"status":400,"error":"User does not exist mid","message":"You need register before login"}
+
+====================ERROR 29/9/2023, 17:26:04=========================
+{"status":400,"error":"Incorrect password","message":"The password does not match with the user"}
+
+====================ERROR 29/9/2023, 17:26:36=========================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+====================ERROR 29/9/2023, 17:26:38=========================
+{"status":401,"error":"Email verification needed","message":"Look at your email messages for a verification email"}
+
+====================ERROR 29/9/2023, 20:49:48=========================
+{"status":401,"message":"No authorization header"}
+
+====================ERROR 29/9/2023, 20:49:48=========================
+{"status":401,"message":"No authorization header"}
+
+====================ERROR 29/9/2023, 20:50:00=========================
+{"status":401,"message":"No authorization header"}
+
+====================ERROR 29/9/2023, 20:50:00=========================
+{"status":401,"message":"No authorization header"}
+
+====================ERROR 29/9/2023, 20:53:36=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-09-30T00:27:21.000Z"}
+
+====================ERROR 29/9/2023, 20:54:46=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-09-30T00:27:21.000Z"}
+
+====================ERROR 29/9/2023, 20:54:46=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-09-30T00:27:21.000Z"}
+
+====================ERROR 29/9/2023, 20:54:57=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-09-30T00:27:21.000Z"}
+
+====================ERROR 29/9/2023, 20:54:57=========================
+{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2023-09-30T00:27:21.000Z"}
+
